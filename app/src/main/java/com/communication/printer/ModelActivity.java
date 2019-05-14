@@ -86,7 +86,7 @@ public class ModelActivity extends AppCompatActivity{
                 tv1 = (TextView) view.findViewById(R.id.modelName);//找到Textviewname
                 String str = tv1.getText().toString();//得到数据
 
-                Intent intent = new Intent(ModelActivity.this, DetailActivity.class);
+                Intent intent = new Intent(ModelActivity.this, ImageActivity.class);
                 intent.putExtra("extra_data", str);
                 //启动Intent
                 startActivity(intent);

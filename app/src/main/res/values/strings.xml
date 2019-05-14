@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">Printer</string>
-    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_main">Printer</string>
+    <string name="title_activity_model">Model</string>
+    <string name="title_activity_image">Detail</string>
+    <string name="title_send_bluetooth">Send Bluetooth</string>
+    <string name="title_send_tcp">Send TCP</string>
 </resources>
